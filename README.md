@@ -21,22 +21,21 @@ This project is used to perform visual-speech-aware 3D reconstruction so that sp
 - CUDA = 12.4 
 `` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
 
-
-### Installation from Spectre Local setup Notebook
- All the following installation can be directly performed by the `spectre_local_setup.ipynb` jupyter file.
- - Open the Jupyter File in vscode 
- - click on Run all cells to run the intsallation 
-
-`` Note : If there is any failure during the installation through the notebook run the command from the failed cell in the terminal  ``
-
 ### Clone the Repository
 ```bash
 git clone --recurse-submodules -j4 https://github.com/ibrahim-anas/SPECTRE.git
 cd spectre
 ```
 
+### Installation from Spectre Local setup Notebook
+ All the following installation can be directly performed by the `spectre_local_setup.ipynb` Jupyter notebook.
+ - Open the Jupyter notebook locally (e.g. Visual Studio Code)
+ - click on Run all cells to run the installation 
+
+`` Note : If there is any failure during the installation through the notebook run the command from the failed cell in the terminal  ``
+
 ### Install Dependencies
-Ensure you have Python 3.10.14 and CUDA 12.4. Install the required libraries with the following commands:
+Ensure you have Python 3.10.14 and CUDA 12.4. Install the required libraries with the following commands (Can be found in the Jupyter notebook):
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
