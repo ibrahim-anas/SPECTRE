@@ -10,15 +10,15 @@ Published on: arXiv 2022
 
 ## **Overview**
 
-Our method performs visual-speech-aware 3D reconstruction so that speech perception from the original footage is preserved in the reconstructed talking head. For each example, the word/phrase being said is included.
+This project is used to perform visual-speech-aware 3D reconstruction so that speech perception from the original footage is preserved in the reconstructed talking head. 
 
 ---
 
 ## **Installation**
 
 ### Requirements: 
-- Python = 3.10.11
-- Cuda = 12.4 
+- Python = 3.10.14
+- CUDA = 12.4 
 `` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
 
 
@@ -43,8 +43,15 @@ git clone --recurse-submodules -j4 https://github.com/ibrahim-anas/SPECTRE.git
 cd spectre
 ```
 
+### Installation from Spectre Local setup Notebook
+ All the following installation can be directly performed by the `spectre_local_setup.ipynb` Jupyter notebook.
+ - Open the Jupyter notebook locally (e.g. Visual Studio Code)
+ - click on Run all cells to run the installation 
+
+`` Note : If there is any failure during the installation through the notebook run the command from the failed cell in the terminal  ``
+
 ### Install Dependencies
-Ensure you have Python 3.6 or higher. Install the required libraries with the following commands:
+Ensure you have Python 3.10.14 and CUDA 12.4. Install the required libraries with the following commands (Can be found in the Jupyter notebook):
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
@@ -67,16 +74,6 @@ pip install fvcore iopath scikit_image scipy kornia chumpy librosa av loguru ten
    git lfs pull
    pip install -e .
    ```
-
----
-
-## **Download Models**
-
-Use the following command to download the FLAME model and the pretrained SPECTRE model:
-```bash
-pip install gdown
-bash quick_install.sh
-```
 
 ---
 
