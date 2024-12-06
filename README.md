@@ -17,8 +17,8 @@ Our method performs visual-speech-aware 3D reconstruction so that speech percept
 ## **Installation**
 
 ### Requirements: 
-- Python = 3.10.11
-- Cuda = 12.4 
+- Python = 3.10.14
+- CUDA = 12.4 
 `` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
 
 
@@ -36,7 +36,7 @@ cd spectre
 ```
 
 ### Install Dependencies
-Ensure you have Python 3.6 or higher. Install the required libraries with the following commands:
+Ensure you have Python 3.10.14 and CUDA 12.4. Install the required libraries with the following commands:
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
@@ -59,16 +59,6 @@ pip install fvcore iopath scikit_image scipy kornia chumpy librosa av loguru ten
    git lfs pull
    pip install -e .
    ```
-
----
-
-## **Download Models**
-
-Use the following command to download the FLAME model and the pretrained SPECTRE model:
-```bash
-pip install gdown
-bash quick_install.sh
-```
 
 ---
 
