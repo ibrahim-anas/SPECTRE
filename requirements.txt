@@ -1,7 +1,5 @@
-torch --index-url https://download.pytorch.org/whl/cu113
-torchvision --index-url https://download.pytorch.org/whl/cu113
-torchaudio --index-url https://download.pytorch.org/whl/cu113
-pytorch3d
+
+pytorch3d @ git+https://github.com/facebookresearch/pytorch3d.git@main
 fvcore
 iopath
 scikit_image
@@ -20,3 +18,4 @@ scipy>=1.1.0
 gdown
 yacs
 numpy==1.23.5
+gradio
