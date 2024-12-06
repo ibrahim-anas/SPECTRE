@@ -10,7 +10,7 @@ Published on: arXiv 2022
 
 ## **Overview**
 
-Our method performs visual-speech-aware 3D reconstruction so that speech perception from the original footage is preserved in the reconstructed talking head. For each example, the word/phrase being said is included.
+This project is used to perform visual-speech-aware 3D reconstruction so that speech perception from the original footage is preserved in the reconstructed talking head. 
 
 ---
 
