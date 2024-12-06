@@ -39,25 +39,25 @@ cd spectre
 Ensure you have Python 3.6 or higher. Install the required libraries with the following commands:
 
 ```bash
-!pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-!pip install "git+https://github.com/facebookresearch/pytorch3d.git"
-!pip install fvcore iopath scikit_image scipy kornia chumpy librosa av loguru tensorboard pytorch_lightning opencv-python phonemizer jiwer gdown yacs numpy==1.23.5 gradio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install "git+https://github.com/facebookresearch/pytorch3d.git"
+pip install fvcore iopath scikit_image scipy kornia chumpy librosa av loguru tensorboard pytorch_lightning opencv-python phonemizer jiwer gdown yacs numpy==1.23.5 gradio
 ```
 
 ### Install External Packages
 
 1. Install **face_detection**:
    ```bash
-   !cd external/face_detection
-   !git lfs pull
-   !pip install -e .
+   cd external/face_detection
+   git lfs pull
+   pip install -e .
    ```
 
 2. Install **face_alignment**:
    ```bash
-   !cd external/face_alignment
-   !git lfs pull
-   !pip install -e .
+   cd external/face_alignment
+   git lfs pull
+   pip install -e .
    ```
 
 ---
@@ -77,7 +77,7 @@ bash quick_install.sh
 ### Demo via Command Line
 To test the demo on the sample video provided:
 ```bash
-!python demo.py --input samples/MEAD/M003_level_1_disgusted_015.mp4 --audio
+python demo.py --input samples/MEAD/M003_level_1_disgusted_015.mp4 --audio
 ```
 
 ### Demo via Gradio Interface
