@@ -22,6 +22,14 @@ Our method performs visual-speech-aware 3D reconstruction so that speech percept
 `` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
 
 
+### Demo Using Kaggle 
+
+```
+https://www.kaggle.com/code/niwant/ccn-spectre-project
+```
+Use the following kaggle linke to run the Model for Demo on Kaggle . 
+
+
 ### Installation from Spectre Local setup Notebook
  All the following installation can be directly performed by the `spectre_local_setup.ipynb` jupyter file.
  - Open the Jupyter File in vscode 
