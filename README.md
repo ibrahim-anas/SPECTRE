@@ -14,21 +14,26 @@ This project is used to perform visual-speech-aware 3D reconstruction so that sp
 
 ---
 
-## **Installation**
+## **ROS 2 for SPECTRE 
+[Another implemenation](https://github.com/YanzeZhang97/SPECTRE_server_ws) of this project incorporates ROS 2 with the Limo Pro Robot for data acquisition and model execution as a service (MaaS).
 
-### Requirements: 
-- Python = 3.10.14
-- CUDA = 12.4 
-`` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
-
+---
 
 ### Demo Using Kaggle 
 
 ```
 https://www.kaggle.com/code/niwant/ccn-spectre-project
 ```
-Use the following kaggle linke to run the Model for Demo on Kaggle . 
+Use the following link to run the model on Kaggle Notebooks. 
 
+---
+
+## **Installation**
+
+### Requirements: 
+- Python = 3.10.14
+- CUDA = 12.4 
+`` Download the Cuda version from: https://developer.nvidia.com/cuda-12-4-0-download-archive ``
 
 ### Installation from Spectre Local setup Notebook
  All the following installation can be directly performed by the `spectre_local_setup.ipynb` jupyter file.
