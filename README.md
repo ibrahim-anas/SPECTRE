@@ -14,12 +14,12 @@ This project is used to perform visual-speech-aware 3D reconstruction so that sp
 
 ---
 
-## **ROS 2 for SPECTRE 
+## **ROS 2 for SPECTRE**
 [Another implemenation](https://github.com/YanzeZhang97/SPECTRE_server_ws) of this project incorporates ROS 2 with the Limo Pro Robot for data acquisition and model execution as a service (MaaS).
 
 ---
 
-### Demo Using Kaggle 
+## **Demo Using Kaggle** 
 
 ```
 https://www.kaggle.com/code/niwant/ccn-spectre-project
