@@ -1,7 +1,7 @@
 
 # **SPECTRE: Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos**
 
-Official PyTorch implementation of the paper:  
+This repository is an updated version of the official PyTorch implementation of the paper:
 **Visual Speech-Aware Perceptual 3D Facial Expression Reconstruction from Videos**  
 Authors: Panagiotis P. Filntisis, George Retsinas, Foivos Paraperas-Papantoniou, Athanasios Katsamanis, Anastasios Roussos, and Petros Maragos  
 Published on: arXiv 2022  
